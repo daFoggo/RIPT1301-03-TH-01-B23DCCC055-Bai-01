@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(assets/wp12431772-porter-robinson-nurture-wallpapers-topaz-enhance\ edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+.title {
+    color: white;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    display: flex;
+    gap: 5px;
+}
+
+.eachTime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2196f3;
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.up {
+    text-align: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    height: 70%;
+    margin: 0px;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.down {
+    background-color: #127fd6;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 7px 0 7px 0;
+    margin: 0px;
+}
